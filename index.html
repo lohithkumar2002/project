@@ -32,7 +32,7 @@
     </style>
   </head>
   <body>
-    <h1>"Hello World 😊 "</h1>
+    <h1>"Thaggede le 😊 "</h1>
     <h2>"Hello World 😊 "</h2>
     <img
       class="land"
@@ -45,5 +45,40 @@
       alt=""
     />
     <input type="checkbox" />
+    <script>
+      var student = {
+        name: "lohith",
+        age: 20,
+        company: "proclink",
+      };
+
+      console.log(student.name);
+      console.log(student["age"]);
+
+      var t = null;
+      console.log(typeof t);
+
+      let name = "kumar";
+      console.log(name);
+      name = "Zoro";
+      console.log(name);
+
+      const marks = [10, 20];
+      // we are updating the value not the address , so it will update
+      marks[0] = 30;
+      console.log(marks);
+
+      const t1 = [40, 50, 60];
+      const t2 = t1;
+      const t3 = [40, 50, 60];
+
+      t1.push(80);
+      t2.push(70);
+      t3.push(90);
+
+      console.log(t1);
+      console.log(t2);
+      console.log(t3);
+    </script>
   </body>
 </html>
